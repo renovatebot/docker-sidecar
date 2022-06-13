@@ -3,7 +3,7 @@
   "extends": ["local>renovatebot/.github"],
   "packageRules": [
     {
-      "matchPackageNames": ["ghcr.io/containerbase/buildpack"],
+      "matchPackageNames": ["ghcr.io/containerbase/buildpack", "containerbase/buildpack"],
       "pinDigest": false
     }
   ]
